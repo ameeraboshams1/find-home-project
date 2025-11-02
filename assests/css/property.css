@@ -87,11 +87,11 @@ ul {
   left: 200px;
 }
 .carousel-control-prev-icon {
-  background-color: #fff;
+  background-color: transparent;
   background-image: url("https://www.svgrepo.com/show/521480/arrow-prev.svg");
 }
 .carousel-control-next-icon {
-  background-color: #fff;
+  background-color: transparent;
   background-image: url("https://www.svgrepo.com/show/521477/arrow-next.svg");
 }
 .bg-green {
