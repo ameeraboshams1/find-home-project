@@ -358,8 +358,7 @@ body{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-size: 70% 70%; /* scale arrow down to create padding */
-    
+    background-size: 70% 70%; 
 }
 
 @keyframes scaleIn {
@@ -371,4 +370,22 @@ body{
     opacity: 1;
     transform: scale(1);
   }
+}
+.clients-testimonials .testimonial-card {
+  min-width: 300px;
+  max-width: 350px;
+  flex: 1 1 300px;
+}
+
+@media (max-width: 992px) {
+  .clients-testimonials .testimonial-card {
+    width: 80% !important;
+  }
+}
+
+.client-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
 }
